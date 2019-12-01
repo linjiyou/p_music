@@ -1,0 +1,7 @@
+<view class="modal" hidden="{{!showModal}}">
+  <view class="panel">
+   <i class="iconfont icon-shanchu" bindtap="onClose"></i>
+   <slot name="modal-content"></slot>
+  </view>
+  
+</view>

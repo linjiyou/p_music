@@ -1,0 +1,25 @@
+.modal{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99;
+  text-align: center;
+  background: rgba(0,0,0,0.6)
+}
+.panel{
+  position: absolute;
+  bottom: 0rpx;
+  width: 100%;
+  min-height: 300rpx;
+  background-color: #f8f8f8;
+  box-sizing: border-box;
+}
+.modal .icon-shanchu{
+  position: absolute;
+  right: 10rpx;
+  top: 10rpx;
+  padding: 20rpx;
+  font-size: 60rpx;
+}

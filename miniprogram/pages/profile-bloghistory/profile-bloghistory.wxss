@@ -1,0 +1,12 @@
+page{
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.container{
+  position: absolute;
+  top: -100rpx;
+}
+.blog-panel {
+  margin-bottom: 20rpx;
+}

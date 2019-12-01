@@ -1,0 +1,53 @@
+page{
+position: relative;
+background-color: rgba(128,128,128)
+}
+.container{
+  position: absolute;
+  top:-100rpx;
+  left: 0
+}
+.tab{
+  margin-top: 15rpx;
+  height: 100rpx;
+  background-color:#fff;
+}
+.tab .tab-item{
+  color: rgba(128,128,128);
+  font-size: 35rpx;
+  line-height: 100rpx;
+  margin-left: 20rpx;
+  font-weight: bold;
+}
+.comment-list{
+  margin-top: 10rpx;
+}
+.comment-title{
+  display: flex;
+  align-items: center;
+}
+.comment-title image{
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  margin-left: 20rpx;
+}
+.comment-title .comment-nickname{
+  margin-left: 15rpx;
+}
+.comment-content{
+  padding: 20rpx;
+}
+.comment-time{
+  color: rgba(128, 128, 128, 0.7);
+  font-size: 25rpx;
+  padding: 15rpx;
+}
+.blog-ctrl{
+  position: fixed;
+  bottom: 0;
+  z-index: 99;
+  left: 0;
+  right: 0;
+  height: 70rpx;
+}

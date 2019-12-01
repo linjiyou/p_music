@@ -1,0 +1,7 @@
+{
+  "component":true,
+  "usingComponents": {
+    "my-play":"../../components/playlist/playlist"
+  },
+  "enablePullDownRefresh": true
+}

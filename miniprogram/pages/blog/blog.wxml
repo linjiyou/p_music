@@ -1,0 +1,19 @@
+<view class="container">
+ <view class="header">
+   <view class="publish-container" bind:tap="onPublish">
+    <i class="iconfont icon-fabu"></i>
+   </view>
+   <view class="search-container">
+    <x-search iconfont="iconfont" icon-sousuo="icon-sousuo" bind:onSearch="search"/>
+   </view>
+ </view>
+ <view class="blog-list">
+ <block wx:for="{{blogList}}" wx:key="_id">
+ <view class="blog-panel">
+  <x-blog-card blog="{{item}}" bind:tap="onComment" data-blogid="{{item._id}}" />
+  <x-blog-ctrl blogId="{{item._id}}" blog="{{item}}"/>
+ </view>
+ </block>
+ </view>
+  <x-login showModal="{{showModal}}" bind:loginSuccess="onLoginSuccess" bind:loginFail="onLoginFail"></x-login>
+</view>
