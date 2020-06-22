@@ -8,13 +8,16 @@ Page({
   data: {
 
     swiperImgUrls: [{
-        url: 'http://p1.music.126.net/oeH9rlBAj3UNkhOmfog8Hw==/109951164169407335.jpg',
+      url: 'http://p1.music.126.net/bIo3-171VzJ868RZE-CNjw==/109951165080112892.jpg?imageView&quality=89',
       },
       {
-        url: 'http://p1.music.126.net/xhWAaHI-SIYP8ZMzL9NOqg==/109951164167032995.jpg',
+        url: 'http://p1.music.126.net/NepbMT1xZlS2l59YdWalKQ==/109951165080645718.jpg?imageView&quality=89',
       },
       {
-        url: 'http://p1.music.126.net/Yo-FjrJTQ9clkDkuUCTtUg==/109951164169441928.jpg',
+        url: 'http://p1.music.126.net/Q6_Axd1jPUDUQCSQRPcuKw==/109951165080168682.jpg?imageView&quality=89',
+      },
+      {
+        url:"http://p1.music.126.net/sOLsVvO16r-zll1WyudoYg==/109951165080121843.jpg?imageView&quality=89"
       }
     ],
     playList: [],
